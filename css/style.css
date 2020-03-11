@@ -1,0 +1,131 @@
+
+html { 
+	overflow-x: hidden;
+margin: auto;
+ }
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+
+}
+.navbar-main
+{
+	position: sticky;
+}
+nav ul li a:hover
+{
+	color:#4B4FED!important;
+	transition: 0.5s all;
+}
+.header-text
+{
+	left: 10%;
+	margin-top: 10%;
+}
+.container .card1-anim .card1:hover
+{
+	opacity: 1!important;
+	color: #fff;
+	transition: 0.5s all;
+
+}
+.container .card1-anim .card1:hover .card
+{
+	background-image: linear-gradient(to right top, #a32aa1, #a134b2, #9d3fc4, #954ad6, #8a55e8);
+}
+
+.hire-me,.get-cv
+{
+	height: 50px;
+}
+.hire-me:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+.typed-cursor {
+    opacity: 1;
+  
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }}
+.letme h2 span
+{
+	font-size: 2rem!important;
+	letter-spacing: 21px!important;
+}
+.container .image-port1 .card:hover img
+{
+	box-shadow: 0px 2px 22px -4px #000000;
+	filter: brightness(105%);
+	transition: 0.5s all;
+	border-radius: 10px;
+}
+.card-hov:hover
+{
+	background-color: #000!important;
+	outline: 4px solid #fff;
+	color:#fff;
+	transition: 0.5s all;
+	
+}
+.card-hov img:hover
+{
+	height: 130px;
+	width: 130px;
+	transition: 0.5s all;
+}
+.image1:hover
+{
+	filter: brightness(100%);
+	box-shadow:  0 0 34px 10px #ccc;
+	transition: 0.4s all;
+}
+.lform
+{
+		background-color: #fff;
+		padding: 20px;
+		margin-top: 19%;
+		border-radius: 20px;
+}
+.social-icon a .fa-facebook:hover
+{
+	color: 	#3b5998;
+	transition: 0.3s all;
+	filter: brightness(70%);
+}
+.social-icon a .fa-twitter:hover
+{
+	color: 		#55acee;
+	transition: 0.3s all;
+		filter: brightness(70%);
+}
+.social-icon a .fa-instagram:hover
+{
+	color: 		#e12828;
+	transition: 0.3s all;
+		filter: brightness(70%);
+}
+.social-icon a .fa-github:hover
+{
+	color: 	#000;
+	transition: 0.3s all;
+	filter: brightness(70%);
+}
